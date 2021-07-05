@@ -24,8 +24,65 @@ h2 {
     color: red;
     font-size: 2rem;
 }
-
 .formulario_contenedor {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    background-color:rgba(0, 0, 0, .9)
+}
+
+.formulario_campos {
+    margin: 1rem;   
+}
+
+
+legend {
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #b3804b;
+}
+
+input {
+    border-radius: .5rem;
+    display: block;
+    padding: .5rem;
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.boton {
+    background-color: #102b46;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: #b3804b;
+}
+/* .formulario_contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,15 +100,15 @@ h2 {
     justify-content: space-between;
    
 }
-
+legend {
+    background-color: red;
+}
 label {
     display: inline-block;
     color: wheat;
     font-size: 2rem;
     margin: 0 2rem;
-    
   
-    
 }
 
 input {
@@ -61,4 +118,4 @@ input {
 }
 #submit, #button {
     width: 100%;
-}
+} */
