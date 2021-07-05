@@ -29,14 +29,14 @@ h2 {
     color: red;
     font-size: 2rem;
 }
-.formulario_contenedor {
+main {
     height: 70%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
-.formulario {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,34 +45,38 @@ h2 {
     background-color:rgba(0, 0, 0, .9)
 }
 
-.formulario_campos {
-    margin: 1rem;   
+.form_field {
+    padding: 1rem;
+    width: 100%;
 }
 
 
-legend {
+form header {
     margin: 1rem;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding: 1rem;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: bold;
     color: #b3804b;
 }
 
-input {
+.form_field input {
     border-radius: .5rem;
     display: block;
+    align-content: center;
     padding: .5rem;
     border: none;
+    width: 100%;
 }
 
-label {
+.form_field label {
     display: block;
     margin-bottom: .5rem;
 }
 
-.boton {
+.form_field .boton {
     background-color: #102b46;
     padding: .5rem 2rem;
     border-radius: .5rem;
@@ -83,7 +87,7 @@ label {
     border: none;
 }
 
-.boton:hover {
+.form_field .boton:hover {
     cursor: pointer;
     background-color: #b3804b;
 }
