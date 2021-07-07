@@ -1,0 +1,64 @@
+body {
+    background: url(../img/pexels-pavel-danilyuk-7234393.jpg) center center no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    top: 2rem;
+    left: .5rem;
+    font-size: 1.5rem;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 4rem;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    padding: 150px 2rem 2rem 2rem;
+}
+
+.contador {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.contador .tiempo {
+    background-color: rgba(255, 255, 255, .1);
+    padding: 1rem;
+    margin: .5rem;
+}
+
+
+.numero {
+    font-size: 3rem;
+}
+input {
+    font-size: 1rem;
+}
+
+#suscribirse {
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    margin-right: 1rem;
+}
+.pie {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;  
+    color: white;
+    text-align: center;
+}
