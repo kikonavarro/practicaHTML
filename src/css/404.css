@@ -1,0 +1,14 @@
+.wrapper {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.main {
+    margin: 2rem;
+}
+.error {
+    font-weight: bold;
+    font-size: 5rem;
+}
