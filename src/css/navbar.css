@@ -1,0 +1,17 @@
+@media (min-width: 780px) {
+    .logo {
+        display: block;
+        float: left;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+}
+   
