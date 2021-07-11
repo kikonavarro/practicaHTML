@@ -10,77 +10,116 @@
     <link rel="stylesheet" href="./css/ficha.css">
     <link rel="stylesheet" href="./css/navbar.css">
 </head>
-<body>
+<body class="fondo">
     <header class="contenedornavbar">
-            <nav class="navbar">
-                <h2 class="logo">KikoVision</h2>
-                <input type="checkbox" id="burger-label">
-                <label for="burger-label" class="burger-label"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <line x1="4" y1="6" x2="20" y2="6" />
-                    <line x1="4" y1="12" x2="20" y2="12" />
-                    <line x1="4" y1="18" x2="20" y2="18" />
-                  </svg></label>
-                <ul class="navbarlist">
-                    <li class="navbaritem"><a href="#" class="enlaceitem"></a>Inicio</li>
-                    <li class="navbaritem"><a href="#" class="enlaceitem"></a>Películas</li>
-                    <li class="navbaritem"><a href="#" class="enlaceitem"></a>Series</li>
-                    <li class="navbaritem"><a href="#" class="enlaceitem"></a>Novedades</li>
-                    <li class="navbaritem navbusqueda"><input type="search" name="navbusqueda" id="navbusqueda" placeholder="Buscar"></li>
-                </ul>
-            </nav>
+        <nav class="navbar">
+            <h2 class="logo">KikoVision</h2>
+            <input type="checkbox" id="burger-label">
+            <label for="burger-label" class="burger-label"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+                </svg></label>
+            <ul class="navbarlist">
+                <li class="navbaritem"><a href="/src/index.html" class="enlaceitem">Inicio</a></li>
+                <li class="navbaritem"><a href="#" class="enlaceitem">Películas</a></li>
+                <li class="navbaritem"><a href="#" class="enlaceitem">Series</a></li>
+                <li class="navbaritem"><a href="#" class="enlaceitem">Novedades</a></li>
+                <li class="navbaritem navbusqueda"><input type="search" name="navbusqueda" id="navbusqueda" placeholder="Buscar"></li>
+            </ul>
+        </nav>
  
     </header>
-    <main class=".main">
-        <h1 class="titulo">La remesa mala</h1>
-        <video src="./img/pexels-polina-tankilevitch-8609015.mp4"></video>
-        <section>
-            <p class="sinopsis">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quidem sed aperiam nisi accusamus ex recusandae placeat cupiditate quo nihil temporibus molestiae modi, commodi unde sequi! Praesentium vitae quis ut.</p>
-            <p class="actores"><em>Actores:</em> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil consectetur hic accusamus sequi doloribus aut praesentium eligendi ducimus eius commodi mo</p>
-            <p class="año de lanzamiento">Año: 2021</p>
+    <main class="maincontainer">
+        <h1 class="titulo">La Remesa Mala</h1>
+        <section class="videoprincipal">
+            <video class="trailer" controls src="./img/pexels-polina-tankilevitch-8609015.mp4"></video>
+            <p class="sinopsis"><span>Sinopsis: </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quidem sed aperiam nisi accusamus ex recusandae placeat cupiditate quo nihil temporibus molestiae modi, commodi unde sequi! Praesentium vitae quis ut.</p>
+            <p class="actores">
+                <span>Actores: </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil consectetur hic accusamus sequi doloribus aut praesentium eligendi ducimus eius commodi mo</br>
+                <span>Año: </span>2021
+            </p>
         </section>
 
-        <section class="relacionado">
-            <div class="ficha">                    
-                <a href="#"><img src="./img/Casino_royale_007.jpg" alt="imagen de una película"></a>
-                <p class="descripcion">
-                    Título:<br>
-                    Calificación:<br>
-                    Año de publicación:<br>
-                    Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                </p>
-            </div>
-            <div class="ficha">                    
-                <a href="#"><img src="./img/Casino_royale_007.jpg" alt="imagen de una película"></a>
-                <p class="descripcion">
-                    Título:<br>
-                    Calificación:<br>
-                    Año de publicación:<br>
-                    Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                </p>
-            </div>
-            <div class="ficha">                    
-                <a href="#"><img src="./img/Casino_royale_007.jpg" alt="imagen de una película"></a>
-                <p class="descripcion">
-                    Título:<br>
-                    Calificación:<br>
-                    Año de publicación:<br>
-                    Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                </p>
-            </div>
-            <div class="ficha">                    
-                <a href="#"><img src="./img/Casino_royale_007.jpg" alt="imagen de una película"></a>
-                <p class="descripcion">
-                    Título:<br>
-                    Calificación:<br>
-                    Año de publicación:<br>
-                    Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                </p>
-            </div>  
- 
- 
-
-        </section>
+        <h2>Contenido relacionado</h2>
+        <div class="wrapper">
+            <div class="carrusel">
+                <div class="ficha">
+                    <a href="/src/index.html"><img src="./img/bruja escarlata y vision.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                </div>
+                <div class="ficha">
+                    <a href="#"><img src="./img/Falcon.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                    
+                </div>
+                <div class="ficha">
+                    <a href="#"><img src="./img/juego de tronos.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                </div>
+                <div class="ficha">
+                    <a href="#"><img src="./img/la remesa mala.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                </div>
+                <div class="ficha">
+                    <a href="#"><img src="./img/loki.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                </div>
+                <div class="ficha">
+                    <a href="#"><img src="./img/stranger things.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                </div>
+                <div class="ficha">
+                    <a href="#"><img src="./img/the umbrella academy.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                </div>
+                <div class="ficha">
+                    <a href="#"><img src="./img/mandalorian.jpg" alt="imagen de una película"></a>
+                    <p class="descripcion">
+                        Título:<br>
+                        Calificación:<br>
+                        Año de publicación:<br>
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                    </p>
+                </div>
+                
+        </div>
     </main>
 
 
@@ -88,7 +127,7 @@
 
 
 
-   
+  
 
 </body>
 </html>

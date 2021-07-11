@@ -1,25 +1,45 @@
+body {
+    height: 100vh;
+/*     background-image: url(../img/pexels-pavel-danilyuk-7234386.jpg);
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background: url(../img/pexels-pavel-danilyuk-7234393.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+
 .wrapper {
     height: 100vh;
     display: grid;
     justify-content: center;
     align-content: center;
+    
+    
 }
 
 .main {
     margin: 2rem;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 1rem;
+    color: black;
+
 }
 .error {
     font-weight: bold;
     font-size: 5rem;
+
 }
 
 .mensaje {
     font-weight: bold;
+
 }
 
 p {
     font-size: 1.2rem;
     line-height: 1.5rem;
+    font-weight: bold;
+
 }
 
 .button {

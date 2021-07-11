@@ -9,38 +9,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 
 <body>
-    <header>
-        <div class="contenedorfijo">
-            <div class="contenedornavbar">
-                <h2 class="logo">Kiko<span>Vision</span></h2>
-                <nav class="navbar">
-                    <a href="#series">Series</a>
-                    <a href="#peliculas">Películas</a>
-                    <a href="#favoritos">Favoritos</a>
-                    <a href="#busqueda">Búsqueda</a>
-                    <a href="#novedades">Novedades</a>
-                    <a href="#cerrarSesión">Cerrar Sesión</a>
-                </nav>
-            </div>
-        </div>
-         
+    <header class="contenedornavbar">
+        <nav class="navbar">
+            <h2 class="logo">KikoVision</h2>
+            <input type="checkbox" id="burger-label">
+            <label for="burger-label" class="burger-label"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg></label>
+            <ul class="navbarlist">
+                <li class="navbaritem"><a href="#" class="enlaceitem">Inicio</a></li>
+                <li class="navbaritem"><a href="#" class="enlaceitem">Películas</a></li>
+                <li class="navbaritem"><a href="#" class="enlaceitem">Series</a></li>
+                <li class="navbaritem"><a href="#" class="enlaceitem">Novedades</a></li>
+                <li class="navbaritem navbusqueda"><input type="search" name="navbusqueda" id="navbusqueda" placeholder="Buscar"></li>
+            </ul>
+        </nav>
+
     </header>
     
     <main>
 
         <section id="#peliculas">
-            <h2>Las mejores Películas</h2>
+            <h2 class="peliculas">Las mejores Películas</h2>
             <div class="carrusel">
                 <div class="ficha">                    
                         <a href="#"><img src="./img/Casino_royale_007.jpg" alt="imagen de una película"></a>
                         <p class="descripcion">
-                            Título:<br>
-                            Calificación:<br>
-                            Año de publicación:<br>
-                            Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                         </p>
                         <input type="checkbox" id="favorito">
                         <label for="favorito" class="favorito_label">Favorito</label>
@@ -53,7 +59,7 @@
                         Título:<br>
                         Calificación:<br>
                         Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                     </p>
                     <input type="checkbox" id="favorito">
                     <label for="favorito" class="favorito_label">Favorito</label>
@@ -66,7 +72,7 @@
                         Título:<br>
                         Calificación:<br>
                         Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                     </p>
                     <input type="checkbox" id="favorito">
                     <label for="favorito" class="favorito_label">Favorito</label>
@@ -79,7 +85,7 @@
                         Título:<br>
                         Calificación:<br>
                         Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
 
                     </p>
                     <input type="checkbox" id="favorito">
@@ -93,7 +99,7 @@
                         Título:<br>
                         Calificación:<br>
                         Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                     </p>
                     <input type="checkbox" id="favorito">
                     <label for="favorito" class="favorito_label">Favorito</label>
@@ -106,7 +112,7 @@
                         Título:<br>
                         Calificación:<br>
                         Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                     </p>
                     <input type="checkbox" id="favorito">
                     <label for="favorito" class="favorito_label">Favorito</label>
@@ -119,7 +125,7 @@
                         Título:<br>
                         Calificación:<br>
                         Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                     </p>
                     <input type="checkbox" id="favorito">
                     <label for="favorito" class="favorito_label">Favorito</label>
@@ -132,7 +138,7 @@
                         Título:<br>
                         Calificación:<br>
                         Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
+                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                     </p>
                     <input type="checkbox" id="favorito">
                     <label for="favorito" class="favorito_label">Favorito</label>
@@ -143,7 +149,7 @@
         </section>
 
         <section id="#series">
-            <h2>Las mejores Series</h2>
+            <h2 class="series">Las mejores Series</h2>
             <div class="carrusel">
                 <div class="ficha">
                     <a href="#"><img src="./img/bruja escarlata y vision.jpg" alt="imagen de una película"></a>

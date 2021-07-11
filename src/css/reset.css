@@ -2,8 +2,11 @@
     box-sizing: border-box;
   }
    
-HTML {
+body {
     margin: 0;
     padding: 0;
 }
- 
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}

@@ -27,7 +27,7 @@ header {
 }
 h2 {
     color: red;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .formulario_contenedor {
     height: 70%;
@@ -88,40 +88,3 @@ label {
     cursor: pointer;
     background-color: #b3804b;
 }
-/* .formulario_contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-}
-.formulario {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    
-}
-
-.formulario div {
-    display: flex;
-    justify-content: space-between;
-   
-}
-legend {
-    background-color: red;
-}
-label {
-    display: inline-block;
-    color: wheat;
-    font-size: 2rem;
-    margin: 0 2rem;
-  
-}
-
-input {
-    
-    font-size: 2rem;
-    text-align: center;      
-}
-#submit, #button {
-    width: 100%;
-} */
