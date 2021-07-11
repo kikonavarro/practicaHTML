@@ -65,7 +65,7 @@ li {
     .navbarlist {
         display: none;
     }
-
+/* cuando pulsemos sobre el menu burger en pantallas reducidas el menu de navegación aparecerá y se desplegará por el centro de la pantalla */
     #burger-label:checked ~ .navbarlist {
 
         display: flex;

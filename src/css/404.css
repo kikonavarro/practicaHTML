@@ -1,3 +1,7 @@
+html {
+    font-family:'Open Sans', sans-serif;
+}
+
 body {
     height: 100vh;
 /*     background-image: url(../img/pexels-pavel-danilyuk-7234386.jpg);
@@ -5,16 +9,29 @@ body {
     background-position: center center; */
     background: url(../img/pexels-pavel-danilyuk-7234393.jpg) center center no-repeat;
     background-size: cover;
+
     
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
 }
 
 .wrapper {
     height: 100vh;
     display: grid;
     justify-content: center;
-    align-content: center;
-    
-    
+    align-content: center;   
 }
 
 .main {

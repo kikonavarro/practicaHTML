@@ -4,18 +4,20 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: red;
+}
+
 .logo {
     position: absolute;
-    top: 2rem;
-    left: .5rem;
+    margin: 1rem;
     font-size: 1.5rem;
     color: red;
-    font-size: 2rem;
     font-weight: bold;
 }
 
 h1 {
-    margin-top: 4rem;
     font-size: 3rem;
     color: white;
     text-align: center;

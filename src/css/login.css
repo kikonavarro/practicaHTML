@@ -1,14 +1,6 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
 
 html {
-    font-family: 'Open Sans', sans-serif;
+
     height: 100vh;
     
 }
@@ -22,12 +14,15 @@ body {
 
 
 }
-header {
-    padding: 2rem;
-}
 h2 {
     color: red;
     font-size: 1.5rem;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: red;
 }
 .formulario_contenedor {
     height: 70%;
@@ -42,7 +37,7 @@ h2 {
     align-items: center;
 
     color: white;
-    background-color:rgba(0, 0, 0, .9)
+    background-color: rgba(255, 255, 255, .4)
 }
 
 .formulario_campos {
@@ -65,11 +60,13 @@ input {
     display: block;
     padding: .5rem;
     border: none;
+    
 }
 
 label {
     display: block;
     margin-bottom: .5rem;
+    text-align: center;
 }
 
 .boton {

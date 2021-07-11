@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KikoVision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/ficha.css">
@@ -14,6 +16,7 @@
     <header class="contenedornavbar">
         <nav class="navbar">
             <h2 class="logo">KikoVision</h2>
+            <!-- preparamos el burger menu para version movil incluyendo un icono -->
             <input type="checkbox" id="burger-label">
             <label for="burger-label" class="burger-label"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -23,9 +26,9 @@
                 </svg></label>
             <ul class="navbarlist">
                 <li class="navbaritem"><a href="/src/index.html" class="enlaceitem">Inicio</a></li>
-                <li class="navbaritem"><a href="#" class="enlaceitem">Películas</a></li>
-                <li class="navbaritem"><a href="#" class="enlaceitem">Series</a></li>
-                <li class="navbaritem"><a href="#" class="enlaceitem">Novedades</a></li>
+                <li class="navbaritem"><a href="/src/index.html" class="enlaceitem">Películas</a></li>
+                <li class="navbaritem"><a href="/src/index.html" class="enlaceitem">Series</a></li>
+                <li class="navbaritem"><a href="/src/coming-soon.html" class="enlaceitem">Novedades</a></li>
                 <li class="navbaritem navbusqueda"><input type="search" name="navbusqueda" id="navbusqueda" placeholder="Buscar"></li>
             </ul>
         </nav>
@@ -46,87 +49,93 @@
         <div class="wrapper">
             <div class="carrusel">
                 <div class="ficha">
-                    <a href="/src/index.html"><img src="./img/bruja escarlata y vision.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
+                    <a href="/src/ficha.html"><img src="./img/bruja escarlata y vision.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 <div class="ficha">
-                    <a href="#"><img src="./img/Falcon.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
-                    
+                    <a href="/src/ficha.html"><img src="./img/Falcon.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 <div class="ficha">
-                    <a href="#"><img src="./img/juego de tronos.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
+                    <a href="/src/ficha.html"><img src="./img/juego de tronos.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 <div class="ficha">
-                    <a href="#"><img src="./img/la remesa mala.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
+                    <a href="/src/ficha.html"><img src="./img/la remesa mala.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 <div class="ficha">
-                    <a href="#"><img src="./img/loki.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
+                    <a href="/src/ficha.html"><img src="./img/loki.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 <div class="ficha">
-                    <a href="#"><img src="./img/stranger things.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
+                    <a href="/src/ficha.html"><img src="./img/stranger things.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 <div class="ficha">
-                    <a href="#"><img src="./img/the umbrella academy.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
+                    <a href="/src/ficha.html"><img src="./img/the umbrella academy.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 <div class="ficha">
-                    <a href="#"><img src="./img/mandalorian.jpg" alt="imagen de una película"></a>
-                    <p class="descripcion">
-                        Título:<br>
-                        Calificación:<br>
-                        Año de publicación:<br>
-                        Sinopsis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur!
-                    </p>
+                    <a href="/src/ficha.html"><img src="./img/mandalorian.jpg" alt="imagen de una película">
+                        <p class="descripcion">
+                            <span>Título: </span>Lorem, ipsum.<br>
+                            <span>Calificación: </span>4/5<br>
+                            <span>Año: </span>2021<br>
+                            <span>Sinopsis: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                        </p>
+                    </a>
                 </div>
                 
         </div>
     </main>
-
-
-
-
-
-
+    <footer>
+        <aside>
+            <p>DMI consulting 2021 - Todos los derechos reservados</p>
+        </aside>
+    </footer>
   
 
 </body>
